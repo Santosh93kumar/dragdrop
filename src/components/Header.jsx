@@ -3,6 +3,7 @@ import { Menu, SquareX } from "lucide-react";
 import { MoveRight } from 'lucide-react';
 import logo from "./image/logo.png";
 import { Plus } from 'lucide-react';
+
 function Navbar2_2() {
   const [select, setSelected] = useState("trial");
   const [click, setClick] = useState(false);

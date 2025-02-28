@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import ContactForm from './components/ContactForm'
 import Homepage from './pages/Homepage'
+import Workspace from './pages/Workspace'
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <>
       <Header/>
       <hr />
-      <ContactForm/>
+      {/* <ContactForm/> */}
+      <Workspace/>
     </>
   )
 }
